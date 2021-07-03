@@ -41,9 +41,6 @@ export default function Nav() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/">
-            <About />
-          </Route>
           <Route path="/about">
             <About />
           </Route>
@@ -55,6 +52,9 @@ export default function Nav() {
           </Route>
           <Route path="/resume">
             <Resume />
+          </Route>
+          <Route path="/">
+            <About />
           </Route>
         </Switch>
       </div>
