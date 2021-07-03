@@ -30,4 +30,11 @@ code {
   color: white;
   font-size: 24px;
   padding-top: 1%;
+  margin-left: 20px;
+}
+
+.list-item:hover {
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
 }
