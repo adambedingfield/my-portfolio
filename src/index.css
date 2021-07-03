@@ -55,4 +55,10 @@ code {
 
 .myphoto-container {
   text-align: center;
+  margin-right: 10px;
+}
+
+.projectPhoto {
+  height: 300px;
+  border: solid 1px black;
 }
