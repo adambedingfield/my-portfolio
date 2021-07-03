@@ -38,3 +38,10 @@ code {
   font-size: 2em;
   color: black;
 }
+
+.footer {
+  text-align: center;
+  background-color: gray;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
