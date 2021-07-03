@@ -14,14 +14,20 @@ code {
 
 .header {
   background-color: grey;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .name {
-  margin-top: 0;
-  padding-top: 0;
   color: white;
 }
 
 .nav {
   list-style-type: none;
+}
+
+.list-item {
+  color: white;
+  font-size: 24px;
+  padding-top: 1%;
 }
