@@ -1,0 +1,29 @@
+Adam Bedingfield
+Front-End
+
+HTML
+CSS
+Javascript
+Jquery
+Bootstrap
+Pure CSS
+React
+
+Back-End
+
+APIs
+NodeJS
+Express
+MySQL
+MongoDB
+Mongoose
+Model View Controllers
+Progressive Web Applications
+
+Development
+
+NPM
+Git
+Jest
+Github
+Heroku
