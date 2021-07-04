@@ -1,9 +1,13 @@
 import React from 'react';
+import downloadResume from '../../assets/resume.txt';
 
 // resume export function
 export default function Resume() {
     return (
         <div className="resume">
+            <div className="download-container">
+               <a className="download" href={downloadResume} download>Download Resume</a>
+            </div>
             <div>
                 <h2>Front-End</h2>
                 <ul>
