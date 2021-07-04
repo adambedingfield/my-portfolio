@@ -33,7 +33,7 @@ Contact Page and Footer<br>
 Last is the resume page. I've listed my front-end,back-end, and development skills on this page and there is a link at the top to download this list in a .txt file format.<br>
 
 Resume Page<br>
-![resume](src/assets/home.png)<br>
+![resume](src/assets/resume.png)<br>
 
 ## Technology<br>
 React<br>
