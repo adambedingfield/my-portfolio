@@ -12,13 +12,9 @@ export default function Contact() {
             console.log(isValid);
             //isValid is conditional statement
             if(!isValid) {
-                setErrorMessage('Your email is invalid.');
+                setErrorMessage('Please enter a valid email.');
             } else {
-                if (!e.target.value.length) {
-                    setErrorMessage(`${e.target.name} is required`);
-                } else {
-                    setErrorMessage('');
-                }
+                setErrorMessage('');
             }
         }
         if(!errorMessage) {
@@ -32,20 +28,19 @@ export default function Contact() {
     }
 
     return (
-        <section>
-            <h1>Contact me</h1>
+        <section className="left">
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-                </div>
+                    <div>
+                        <label htmlFor="name">Name:</label>
+                        <input type="text" name="name" defaultValue={name} onBlur={handleChange} required/>
+                    </div>
+                    <div>
+                        <label htmlFor="email">Email:</label>
+                        <input type="email" name="email" defaultValue={email} onBlur={handleChange} required/>
+                    </div>
                 <div>
                     <label htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} required/>
                 </div>
                 {errorMessage && (
                     <div>
