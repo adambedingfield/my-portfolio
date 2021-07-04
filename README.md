@@ -26,7 +26,7 @@ Project Page<br>
 ## Contact<br>
 Clicking on the Contact section will bring up fields to input your name, email, and a message to send to me. All fields are required and the email field has validation. At the bottom of each page is a footer that links to my github and this portfolios repo.<br>
 
-Contact Page<br>
+Contact Page and Footer<br>
 ![contact](src/assets/contact.png)<br>
 
 ## Resume<br>
