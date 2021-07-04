@@ -12,18 +12,37 @@ code {
     monospace;
 }
 
-* {
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
+html,
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-container {
+  min-height: 100%;
+}
+
+
 .header {
-  background-color: grey;
+  background: rgb(8,35,148);
+  background: linear-gradient(90deg, rgba(8,35,148,1) 30%, rgba(0,114,255,1) 50%, rgba(148,216,255,1) 70%);
   padding-top: 2%;
   padding-bottom: 2%;
+  border-bottom: 1px black solid;
+  border-top: 1px black solid;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .name {
-  color: white;
+  color: rgba(148,216,255,1);
 }
 
 .nav {
@@ -31,23 +50,36 @@ code {
 }
 
 .list-item {
-  color: white;
-  font-size: 24px;
+  color: rgb(8,35,148);
+  font-size: 1.5em;
   padding-top: 1%;
   margin-left: 20px;
 }
 
 .list-item:hover {
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.7em;
   color: black;
 }
 
 .footer {
   text-align: center;
-  background-color: gray;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: rgba(148,216,255,1);
+  border-top: 1px black solid;
+}
+.footer-link {
+  color: rgb(8,35,148);
+  font-size: 50px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer-link:hover {
+  color: rgba(148,216,255,1);
+  text-decoration: none;
 }
 
 .myphoto {
@@ -94,12 +126,14 @@ textarea {
 
 .center {
   text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .left {
   text-align: left;
   padding-left: 15px;
-  padding-bottom: 10px;
+  padding-bottom: 60px;
 }
 
 .right {
@@ -110,3 +144,48 @@ label {
   font-size: 18px;
   text-emphasis: bold;
 }
+
+.resume {
+  margin-left: 40px;
+}
+
+.myproject-container {
+  padding: 20px;
+  width: 100%;
+}
+
+.projectPhoto:hover {
+  background: black;
+  webkit-filter: blur(.5px); /* Chrome, Safari, Opera */
+  filter:opacity(65%);
+}
+
+.single-container {
+  position: relative;
+}
+
+.single-container:hover .project-text {
+  background: rgb(8,35,148);
+  text-align: center;
+  font-size: 36px;
+}
+.single-container:hover .project-description {
+  display:initial;
+  padding-left: 20px;
+}
+
+.project-text {
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+  background-color: rgba(8,35,148,1);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+}
+
+.project-description {
+  display: none;
+}
+
