@@ -1,5 +1,6 @@
 import React from 'react';
 
+// export about function
 function About() {
     return (
         <div>

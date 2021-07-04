@@ -1,5 +1,6 @@
 import React from 'react';
 
+// resume export function
 export default function Resume() {
     return (
         <div className="resume">

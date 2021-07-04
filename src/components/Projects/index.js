@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Project component function
 export default function Projects() {
     return (
         <div>
@@ -8,7 +9,7 @@ export default function Projects() {
                     <a href="https://xavy-romeo.github.io/project-1-ucla/">
                     <img className="projectPhoto col" src={require("../../assets/cinfo.png").default}></img>
                     <div class="project-text-container">
-                       <h2 className="project-text">Cinfo<h4 className="project-description">A city search to keeps you in the loop</h4></h2>
+                       <h2 className="project-text">Cinfo<h4 className="project-description">A city search to keep you in the loop</h4></h2>
                     </div>
                     </a>
                 </div>

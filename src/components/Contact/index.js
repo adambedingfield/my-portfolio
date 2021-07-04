@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/validate';
 
+//contact export function
 export default function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: ''});
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
 
+    // validate email function
     function handleChange(e) {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
@@ -26,7 +28,7 @@ export default function Contact() {
         e.preventDefault();
         console.log(formState);
     }
-
+    // put required tag for input to let user know they must be filled
     return (
         <section className="left">
             <form id="contact-form" onSubmit={handleSubmit}>

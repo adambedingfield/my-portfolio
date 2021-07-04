@@ -30,6 +30,7 @@ body {
   min-height: 100%;
 }
 
+/* Header/Nav */
 
 .header {
   background: rgb(8,35,148);
@@ -62,6 +63,8 @@ body {
   color: black;
 }
 
+/* Footer */
+
 .footer {
   text-align: center;
   padding-top: 20px;
@@ -82,6 +85,8 @@ body {
   text-decoration: none;
 }
 
+/* About */
+
 .myphoto {
   max-width: 100%;
   height: 600px;
@@ -94,10 +99,7 @@ body {
   margin-right: 10px;
 }
 
-.projectPhoto {
-  height: 300px;
-  border: solid 1px black;
-}
+/* Contact */
 
 form {
   width: 40%;
@@ -124,6 +126,13 @@ textarea {
 	border: 3px solid #cccccc;
 }
 
+label {
+  font-size: 18px;
+  text-emphasis: bold;
+}
+
+/* Alignment */
+
 .center {
   text-align: center;
   padding-top: 15px;
@@ -140,23 +149,27 @@ textarea {
   text-align: right;
 }
 
-label {
-  font-size: 18px;
-  text-emphasis: bold;
-}
+/* Resume */
 
 .resume {
   margin-left: 40px;
 }
+
+/* Project */
 
 .myproject-container {
   padding: 20px;
   width: 100%;
 }
 
+.projectPhoto {
+  height: 300px;
+  border: solid 1px black;
+}
+
 .projectPhoto:hover {
   background: black;
-  webkit-filter: blur(.5px); /* Chrome, Safari, Opera */
+  webkit-filter: blur(.5px);
   filter:opacity(65%);
 }
 
