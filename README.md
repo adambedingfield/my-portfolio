@@ -3,7 +3,7 @@
 This is my own personal portfolio. It contains information about me, my projects, my proficiencies, and a way to contact me.<br>
 ## Deployed app
 Deployed with github pages.<br>
-https://adambedingfield.github.io/about<br>
+https://adambedingfield.github.io/my-portfolio/<br>
 ## Table of Contents<br>
 * [About](#about)<br>
 * [Projects](#projects)<br>
