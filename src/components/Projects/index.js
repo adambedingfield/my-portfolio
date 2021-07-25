@@ -50,10 +50,10 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className="col single-container">
-                    <a href="https://adambedingfield.github.io/weather-dashboard/">
-                    <img className="projectPhoto col" src={require("../../assets/weather.png").default}></img>
+                    <a href="https://evening-fjord-88647.herokuapp.com/">
+                    <img className="projectPhoto col" src={require("../../assets/frieddiner.png").default}></img>
                     <div class="project-text-container">
-                       <h2 className="project-text">Weather Dashboard<h4 className="project-description">A daily forecast</h4></h2>
+                       <h2 className="project-text">Fried Snacks Diner<h4 className="project-description">A local restaurant</h4></h2>
                     </div>
                     </a>
                 </div>
